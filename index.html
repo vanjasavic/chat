@@ -32,15 +32,17 @@
             </div>
 
             <div id="chat__footer" class="chat__footer">
-                <input id="chat__input" class="chat__input" type="text" placeholder="Poruka za chat">
-                <button id="chat__button" class="chat__button">Pošalji</button>
+                <form id="form" action="">
+                    <input id="chat__input" class="chat__input" type="text" placeholder="Poruka za chat">
+                    <button id="chat__button" class="chat__button">Pošalji</button>
+                </form>
             </div>
 
         </div>
 
     </main>
 
-
+    <script src="/socket.io/socket.io.js"></script>
     <script src="js/app.js"></script>
     
 </body>
